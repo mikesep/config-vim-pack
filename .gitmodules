@@ -1,0 +1,44 @@
+[submodule "start/loupe"]
+	path = start/loupe
+	url = https://github.com/wincent/loupe
+	branch = master
+[submodule "start/nerdtree"]
+	path = start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+	branch = master
+[submodule "start/tabular"]
+	path = start/tabular
+	url = https://github.com/godlygeek/tabular
+	branch = master
+[submodule "start/taglist.vim"]
+	path = start/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim
+	branch = master
+[submodule "start/vim-characterize"]
+	path = start/vim-characterize
+	url = https://github.com/tpope/vim-characterize
+	branch = master
+[submodule "start/vim-colors-solarized"]
+	path = start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+	branch = master
+[submodule "start/vim-fugitive"]
+	path = start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+	branch = master
+[submodule "start/vim-instant-markdown"]
+	path = start/vim-instant-markdown
+	url = https://github.com/suan/vim-instant-markdown
+	branch = master
+[submodule "start/vim-repeat"]
+	path = start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+	branch = master
+[submodule "start/vim-sensible"]
+	path = start/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+	branch = master
+[submodule "start/vim-surround"]
+	path = start/vim-surround
+	url = https://github.com/tpope/vim-surround
+	branch = master
