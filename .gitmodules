@@ -1,3 +1,7 @@
+[submodule "start/command-t"]
+	path = start/command-t
+	url = https://github.com/wincent/command-t
+	branch = master
 [submodule "start/loupe"]
 	path = start/loupe
 	url = https://github.com/wincent/loupe
