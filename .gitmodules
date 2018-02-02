@@ -40,7 +40,7 @@
 	url = https://github.com/tpope/vim-repeat
 	branch = master
 [submodule "start/vim-sensible"]
-	path = start/vim-sensible
+	path = start/01-vim-sensible
 	url = https://github.com/tpope/vim-sensible
 	branch = master
 [submodule "start/vim-surround"]
