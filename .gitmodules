@@ -47,3 +47,7 @@
 	path = start/vim-surround
 	url = https://github.com/tpope/vim-surround
 	branch = master
+[submodule "start/vim-abolish"]
+	path = start/vim-abolish
+	url = https://github.com/tpope/vim-abolish
+	branch = master
