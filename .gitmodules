@@ -51,3 +51,7 @@
 	path = start/vim-abolish
 	url = https://github.com/tpope/vim-abolish
 	branch = master
+[submodule "start/vim-go"]
+	path = start/vim-go
+	url = https://github.com/fatih/vim-go
+	branch = master
