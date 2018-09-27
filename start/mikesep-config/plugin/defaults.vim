@@ -12,7 +12,6 @@ set wildmode=longest:full,full
 
 "Line numbering
 set number
-set relativenumber
 
 "Window splits
 set splitbelow  "New split goes below the current window
