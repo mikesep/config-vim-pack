@@ -1,5 +1,8 @@
 setlocal noexpandtab
 
+" auto-insert comment leaders
+set formatoptions+=cro
+
 let g:go_bin_path = $HOME . '/.vim/vim-go-binaries'
 
 let g:go_jump_to_error = 0
