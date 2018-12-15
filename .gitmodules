@@ -55,3 +55,7 @@
 	path = start/vim-go
 	url = https://github.com/fatih/vim-go
 	branch = master
+[submodule "start/fzf.vim"]
+	path = start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+	branch = master
