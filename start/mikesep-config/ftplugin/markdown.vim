@@ -1,5 +1,5 @@
-set textwidth=80
+setlocal textwidth=80
 
 augroup prettier_markdown
-  autocmd BufWritePre * Prettier
+  autocmd BufWritePre <buffer> Prettier
 augroup END
