@@ -8,6 +8,10 @@ let g:go_bin_path = $HOME . '/.vim/vim-go-binaries'
 let g:go_jump_to_error = 0
 let g:go_test_show_name = 1
 
+let g:go_fmt_options = {
+  \ 'gofmt': '-s',
+\ }
+
 let g:go_auto_type_info = 0
 let g:go_auto_sameids = 0
 
