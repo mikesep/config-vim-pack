@@ -28,4 +28,4 @@ let g:go_highlight_variable_assignments = 1
 let g:go_highlight_variable_declarations = 1
 
 let g:go_alternate_mode = "vsplit"
-noremap <buffer> <Leader>a :GoAlternate<CR>
+noremap <buffer> <Leader>a :GoAlternate!<CR>
