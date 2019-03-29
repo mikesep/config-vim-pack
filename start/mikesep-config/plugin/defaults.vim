@@ -3,6 +3,8 @@ if exists('g:mikesep_config_defaults')
 endif
 let g:mikesep_config_defaults = 1
 
+set nowrap
+
 set hidden      "A buffer becomes hidden when it is abandoned
 set lazyredraw  "Don't redraw while executing non-typed things
 
