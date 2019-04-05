@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -x
+
+git submodule update --init
+
+# Checkout a properly-named branch, according to the config in /.gitmodules.
+# git will automatically make it track the right upstream branch.
+git submodule foreach \
+  'git checkout -B $(git config --file "$toplevel/.gitmodules" --get "submodule.$name.branch") "$sha1" ; echo'

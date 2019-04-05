@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+set -x
+git submodule foreach 'git pull --ff-only ; echo'
