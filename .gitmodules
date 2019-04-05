@@ -4,6 +4,10 @@
 	url = https://github.com/tpope/vim-sensible
 	branch = master
 
+[submodule "start/dockerfile.vim"]
+	path = start/dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim
+	branch = master
 [submodule "start/fzf.vim"]
 	path = start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
