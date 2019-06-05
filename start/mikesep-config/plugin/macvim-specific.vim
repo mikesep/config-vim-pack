@@ -9,6 +9,8 @@ if has('gui_running') && has('gui_macvim')
 
   let macvim_skip_cmd_opt_movement = 1
 
+  set guitablabel=%N:\ %M%f\ %r
+
   " command-left/right moves to the prev/next tab
   nmap <D-Left>  gT
   nmap <D-Right> gt
