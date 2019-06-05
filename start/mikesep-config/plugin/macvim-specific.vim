@@ -3,7 +3,7 @@ if exists('g:mikesep_config_macvim_specific')
 endif
 let g:mikesep_config_macvim_specific = 1
 
-if has('gui_macvim')
+if has('gui_running') && has('gui_macvim')
   set guifont=Fira\ Code:h14
   set macligatures
 
