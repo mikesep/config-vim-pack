@@ -9,6 +9,15 @@ if has('gui_running') && has('gui_macvim')
 
   let macvim_skip_cmd_opt_movement = 1
 
+  "No scrollbars
+  set guioptions-=l
+  set guioptions-=L
+  set guioptions-=r
+  set guioptions-=R
+
+  " Keep the GUI window size when adding/removing a scrollbar/toolbar/tabline
+  set guioptions+=k
+
   set guitablabel=%N:\ %M%f\ %r
 
   " command-left/right moves to the prev/next tab
