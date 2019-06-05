@@ -7,7 +7,13 @@ if has('gui_running') && has('gui_macvim')
   set guifont=Fira\ Code:h14
   set macligatures
 
-  " Map command-# to go to that tab
+  let macvim_skip_cmd_opt_movement = 1
+
+  " command-left/right moves to the prev/next tab
+  nmap <D-Left>  gT
+  nmap <D-Right> gt
+
+  " command-# goes to that tab
   nmap <D-1> :1tabnext<CR>
   nmap <D-2> :2tabnext<CR>
   nmap <D-3> :3tabnext<CR>
