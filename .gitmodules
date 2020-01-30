@@ -69,3 +69,7 @@
 	path = start/vim-surround
 	url = https://github.com/tpope/vim-surround
 	branch = master
+[submodule "start/vim-toml"]
+	path = start/vim-toml
+	url = https://github.com/cespare/vim-toml
+	branch = master
