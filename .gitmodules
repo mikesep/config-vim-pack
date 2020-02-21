@@ -12,6 +12,10 @@
 	path = start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 	branch = master
+[submodule "start/jenkinsfile-vim-syntax"]
+	path = start/jenkinsfile-vim-syntax
+	url = https://github.com/martinda/Jenkinsfile-vim-syntax
+	branch = master
 [submodule "start/loupe"]
 	path = start/loupe
 	url = https://github.com/wincent/loupe
