@@ -31,7 +31,7 @@ function! s:blurOutOfBounds()
   endif
 endfunction
 
-augroup FocusFoundsBlur
+augroup FocusBoundsBlur
   autocmd!
   autocmd BufEnter,FocusGained,VimEnter,WinEnter * call s:blurOutOfBounds()
   autocmd BufRead,FocusLost,WinLeave             * call s:blurEverything()
