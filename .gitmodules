@@ -24,6 +24,10 @@
 	path = start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 	branch = master
+[submodule "start/nord-vim"]
+	path = start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim
+	branch = master
 [submodule "start/tabular"]
 	path = start/tabular
 	url = https://github.com/godlygeek/tabular
