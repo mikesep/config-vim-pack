@@ -4,6 +4,10 @@
 	url = https://github.com/tpope/vim-sensible
 	branch = master
 
+[submodule "start/cue.vim"]
+	path = start/cue.vim
+	url = https://github.com/hofstadter-io/cue.vim
+	branch = master
 [submodule "start/dockerfile.vim"]
 	path = start/dockerfile.vim
 	url = https://github.com/ekalinin/Dockerfile.vim
