@@ -8,3 +8,6 @@ git submodule update --init
 # git will automatically make it track the right upstream branch.
 git submodule foreach \
   'git checkout -B $(git config --file "$toplevel/.gitmodules" --get "submodule.$name.branch") "$sha1" ; echo'
+
+# Regenerate help tags
+vim -c 'helptags ALL' -c 'quit'

@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
 set -x
+
 git submodule foreach 'git pull --ff-only ; echo'
+
+# Regenerate help tags
+vim -c 'helptags ALL' -c 'quit'
