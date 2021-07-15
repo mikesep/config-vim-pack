@@ -93,3 +93,7 @@
 	path = start/vim-sort-motion
 	url = https://github.com/christoomey/vim-sort-motion
 	branch = master
+[submodule "start/bats.vim"]
+	path = start/bats.vim
+	url = https://github.com/aliou/bats.vim
+	branch = master
