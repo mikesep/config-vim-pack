@@ -1,3 +1,4 @@
+let g:markdown_recommended_style = 0  " disable expandtab -- see :help ft-markdown-plugin
 setlocal textwidth=80
 setlocal tabstop=2
 
