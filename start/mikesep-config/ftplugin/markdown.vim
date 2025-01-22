@@ -9,6 +9,7 @@ let g:markdown_fenced_languages = [
   \ 'html',
   \ 'javascript',
   \ 'js=javascript',
+  \ 'json=javascript',
   \ 'python',
   \ 'sh',
 \ ]
