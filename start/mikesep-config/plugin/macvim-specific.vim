@@ -4,7 +4,8 @@ endif
 let g:mikesep_config_macvim_specific = 1
 
 if has('gui_running') && has('gui_macvim')
-  set guifont=FiraCode-Light:h15
+  "set guifont=FiraCode-Light:h15
+  set guifont=JetBrainsMono-Thin:h15
   set macligatures
 
   let macvim_skip_cmd_opt_movement = 1
