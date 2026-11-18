@@ -69,6 +69,10 @@
 	path = start/vim-go
 	url = https://github.com/fatih/vim-go
 	branch = master
+[submodule "start/vim-haproxy"]
+	path = start/vim-haproxy
+	url = https://github.com/Joorem/vim-haproxy
+	branch = master
 [submodule "start/vim-instant-markdown"]
 	path = start/vim-instant-markdown
 	url = https://github.com/suan/vim-instant-markdown
