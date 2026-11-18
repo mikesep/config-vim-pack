@@ -81,6 +81,10 @@
 	path = start/vim-prettier
 	url = https://github.com/prettier/vim-prettier
 	branch = master
+[submodule "start/vim-rego"]
+	path = start/vim-rego
+	url = https://github.com/tsandall/vim-rego
+	branch = master
 [submodule "start/vim-repeat"]
 	path = start/vim-repeat
 	url = https://github.com/tpope/vim-repeat
